@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Product | Design Page</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <section id="navbar" class="bg-black py-5 px-4">
+
+        <nav class="container mx-auto flex items-center justify-between">
+            <!-- LOGO -->
+            <div>
+                <img src="./images/white-logo.png" alt="" class="h-6 md:h-10">
+            </div>
+
+            <!-- MENU -->
+            <div class="hidden text-white md:flex items-center space-x-10">
+                <a href="#">HOME</a>
+                <a href="#">PROJECT</a>
+                <a href="#">ABOUT</a>
+                <a href="#">CONTACT</a>
+                <a href="#">OTHER PAGE</a>
+            </div>
+
+            <!-- HAMBURGER -->
+            <div class="md:hidden">
+                <button id="menu-btn" class="hamburger z-50 ">
+                    <div class="hamburger-top"></div>
+                    <div class="hamburger-bottom"></div>
+                </button>
+            </div>
+        </nav>
+
+        <!-- MENU -->
+        <div id="menu" class="hidden fixed top-0 left-0 bottom-0 inset-0 flex flex-col items-center text-white bg-black opacity-90 py-14 space-y-10">
+            <a href="#">HOME</a>
+                <a href="#">PROJECT</a>
+                <a href="#">ABOUT</a>
+                <a href="#">CONTACT</a>
+                <a href="#">OTHER PAGE</a>
+        </div>
+
+    </section>
+
+
+    <!-- HERO -->
+    <section id="hero" class="bg-black px-4 py-5">
+
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <!-- LEFT -->
+            <div class="w-full md:w-1/2">
+                <img src="./images/Untitled design (35).png" alt="">
+            </div>
+
+            <!-- RIGHT -->
+            <div class="w-full md:w-1/2 text-white md:px-10 mt-5 md:mt-0 flex flex-col items-center md:items-start">
+                <p class="text-sm md:text-lg text-red-500 font-semibold text-center md:text-left">Hello I'm Arthur</p>
+                <h1 class="text-3xl md:text-6xl md:pb-5 py-2 text-center md:text-left">Visual Designer</h1>
+                <p class="text-md md:text-lg mb-8 text-center md:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quia praesentium aut, totam quibusdam molestiae delectus neque at voluptatibus reiciendis commodi architecto tenetur, minus labore.</p>
+                <a href="#" class="bg-red-700 px-6 py-3 font-bold ">About Me</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section id="services" class="bg-black px-4 py-10">
+
+        <div class="container mx-auto">
+            <!-- CARDS -->
+            <div class="flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0">
+                <!-- CARD - 1 -->
+                <div class="w-full md:w-1/3 text-white bg-[#1e1e1e] p-10 flex flex-col items-center md:items-start">
+                    <div class="w-20">
+                        <img src="./images/ui-design.png" alt="" class="">
+                    </div>
+                    <h1 class="text-2xl py-3">UI Design</h1>
+                    <p class="text-center md:text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, natus voluptatum? Provident inventore pariatur explicabo?</p>
+                    <p class="text-red-600 pt-3">Know More</p>
+                </div>
+
+                <!-- CARD - 2 -->
+                <div class="w-full md:w-1/3 text-white bg-red-600 p-10 flex flex-col items-center md:items-start">
+                    <div class="w-20">
+                        <img src="./images/check-list.png" alt="" class="">
+                    </div>
+                    <h1 class="text-2xl py-3">Product Design</h1>
+                    <p class="text-center md:text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, natus voluptatum? Provident inventore pariatur explicabo?</p>
+                    <p class="text-white pt-3">Know More</p>
+                </div>
+
+                <!-- CARD - 3 -->
+                <div class="w-full md:w-1/3 text-white bg-[#1e1e1e] p-10 flex flex-col items-center md:items-start">
+                    <div class="w-20">
+                        <img src="./images/school-material.png" alt="" class="">
+                    </div>
+                    <h1 class="text-2xl py-3">Branding</h1>
+                    <p class="text-center md:text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, natus voluptatum? Provident inventore pariatur explicabo?</p>
+                    <p class="text-red-600 pt-3">Know More</p>
+                </div>
+            </div>
+
+
+            <!-- COUNTING -->
+            <div class="pt-20 text-white flex flex-col md:flex-row items-center">
+                <!-- LEFT -->
+                <div class="w-full md:w-1/3 text-center mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl">12</h1>
+                    <h1 class="text-4xl md:text-5xl">Years Experience</h1>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="w-full md:w-2/3flex flex-col md:flex-row space-y-5">
+                    <!-- ROW - 1 -->
+                    <div class="flex flex-col md:flex-row md:space-x-5 items-center space-y-5 md:space-y-0">
+                        <!-- item-1  -->
+                        <div class="w-full md:w-1/2 text-center bg-[#1e1e1e] py-5">
+                            <p class="text-red-500 text-3xl md:text-5xl ">60+</p>
+                            <p>clients</p>
+                        </div>
+                        <!-- item-2 -->
+                        <div class="w-full md:w-1/2 text-center bg-[#1e1e1e] py-5">
+                            <h1 class="text-red-500 text-3xl md:text-5xl">08</h1>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+
+                    <!-- ROW - 2 -->
+                    <div class="flex flex-col md:flex-row md:space-x-5 items-center space-y-5 md:space-y-0">
+                        <!-- item-1  -->
+                        <div class="w-full md:w-1/2 text-center bg-[#1e1e1e] py-5">
+                            <p class="text-red-500 text-3xl md:text-5xl ">60+</p>
+                            <p>clients</p>
+                        </div>
+                        <!-- item-2 -->
+                        <div class="w-full md:w-1/2 text-center bg-[#1e1e1e] py-5">
+                            <h1 class="text-red-500 text-3xl md:text-5xl">08</h1>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- PROJECT HEADING -->
+    <section id="project-heading" class="bg-black py-10 px-4">
+
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between text-white">
+            <!-- left -->
+            <div class="w-full md:w-2/3">
+                <h1 class="text-3xl md:text-4xl font-bold text-center md:text-left">Featured Projects</h1>
+                <p class="text-center md:text-left py-4 md:py-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quod iusto doloribus incidunt tenetur exercitationem!</p>
+            </div>
+
+            <!-- right -->
+            <div class="w-full md:w-1/3 text-center md:text-right">
+                <button class="bg-red-500 px-8 py-2">VIEW ALL</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- PROJECT CARDS -->
+    <section id="projects-cards" class="py-10 px-4 bg-black">
+
+        <div class="container mx-auto">
+            <!-- row - 1 -->
+            <div class="flex flex-col md:flex-row md:space-x-10 space-y-5 md:space-y-0">
+                <!-- CARD - 1 -->
+                <div class="flex flex-col w-full md:w-1/2 text-white">
+                    <div class="bg-[#1e1e1e] py-14">
+                        <img src="./images/Screenshot 2022-06-25 131915.jpg" alt="" class="h-68">
+                    </div>
+                    <p class="text-2xl font-bold">The Vintage</p>
+                    <a href="#" class="text-red-600 py-2">Know More</a>
+                </div>
+
+                <!-- CARD - 2 -->
+                <div class="flex flex-col w-full md:w-1/2 text-white">
+                    <div class="bg-[#1e1e1e] py-14">
+                        <img src="./images/Screenshot 2022-06-25 132031.jpg" alt="" class="h-68">
+                    </div>
+                    <p class="text-2xl font-bold">Foodasa</p>
+                    <a href="#" class="text-red-600 py-2">Know More</a>
+                </div>
+            </div>
+
+            <!-- row - 2 -->
+            <div class="flex flex-col md:flex-row md:space-x-10 space-y-5 md:space-y-0 mt-10 items-end">
+                <!-- CARD - 1 -->
+                <div class="flex flex-col w-full md:w-1/2 text-white">
+                    <div class="bg-[#1e1e1e] py-14">
+                        <img src="./images/Screenshot 2022-06-25 133016.jpg" alt="" class="h-68">
+                    </div>
+                    <p class="text-2xl font-bold">Macro Accent</p>
+                    <a href="#" class="text-red-600 py-2">Know More</a>
+                </div>
+
+                <!-- CARD - 2 -->
+                <div class="flex flex-col w-full md:w-1/2 text-white">
+                    <div class="bg-[#1e1e1e] py-14">
+                        <img src="./images/Screenshot 2022-06-25 133426.jpg" alt="" class="h-68">
+                    </div>
+                    <p class="text-2xl font-bold">Mozaik</p>
+                    <a href="#" class="text-red-600 py-2">Know More</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- WORK TOGETHER -->
+    <section id="work" class="bg-black py-10 px-4">
+        <div class="container mx-auto bg-[#1e1e1e] flex flex-col md:flex-row items-center text-white justify-between md:p-14 p-2">
+            <!-- LEFT -->
+            <div class="w-full md:w-2/3 pb-5 md:pb-0">
+                <h1 class="text-4xl py-2 text-center md:text-left">Let's work together on your next project</h1>
+                <p class="text-center md:text-left py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione fugit odio ipsa maiores enim officiis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae esse corporis ea veritatis voluptates recusandae nisi repudiandae exercitationem voluptatum? Rem.</p>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="w-full md:w-1/3 text-center md:text-right">
+                <button class="bg-red-500 px-8 py-2 font-bold">Contact</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- BOTTOM NAV -->
+    <section id="bottom-nav" class="py-10 px-4 bg-black text-white">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-center md:space-x-10 space-y-5 md:space-y-0">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer id="footer" class="bg-[#1e1e1e] px-4 py-10">
+        <div class="container mx-auto flex flex-col items-center justify-between md:flex-row space-y-5 md:space-y-0">
+            <!-- logo -->
+            <div>
+                <img src="./images/white-logo.png" alt="" class="h-9">
+            </div>
+
+            <!-- SOCIAL -->
+            <div class="flex flex-col md:flex-row items-center md:space-x-5 space-y-5 md:space-y-0">
+                <img src="./images/facebook.png" alt="" class="h-8">
+                <img src="./images/twitter.png" alt="" class="h-8">
+                <img src="./images/youtube.png" alt="" class="h-8">
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
